@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #e07ccc, #7272cf, #69cfcf);
+    color: #333;
+}
+
+header {
+  background: linear-gradient(45deg, #e07ccc, #7272cf, #69cfcf);
+	color: rgb(22, 18, 18);
+	padding: 40px;
+	text-align: center;
+     box-shadow: 0px 4px 6px rgb(48, 46, 46);
+}
+
+
+header h1 {
+    margin-bottom: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    animation: floatText 3s ease-in-out infinite;
+    
+}
+header h1:hover{
+    background-color: transparent;
+    color: #6edddd;
+}
+
+@keyframes floatText {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.about {
+    text-align: center;
+    padding: 40px 20px;
+}
+.team {
+    text-align: center;
+    padding: 40px 20px;
+}
