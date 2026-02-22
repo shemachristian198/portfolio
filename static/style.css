@@ -55,6 +55,7 @@ header h1:hover{
     text-align: center;
     padding: 40px 20px;
 }
+
 h6 {
     text-align: center;
     padding: 20px 20px;
@@ -83,7 +84,6 @@ h6:hover{
     margin: auto;
 }
 
- 
 .team {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +91,7 @@ h6:hover{
     gap: 30px;
     padding: 40px 20px;
 }
+
 
 .member {
     position: relative;
@@ -191,9 +192,9 @@ h6:hover{
 .hh3{
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    transition: 0.8s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .hh3:hover{
     background: transparent;
-    color: rgb(29, 78, 185);
+    color: rgb(8, 110, 22);
 }
